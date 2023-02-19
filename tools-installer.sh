@@ -1,5 +1,6 @@
 # made by sukilovot
 
+cd
 install()
 {
 	git clone $url
