@@ -2,7 +2,7 @@
 
 install()
 {
-	git $url
+	git clone $url
 }
 
 echo "starting to update apt..."
