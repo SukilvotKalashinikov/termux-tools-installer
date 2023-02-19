@@ -36,3 +36,12 @@ echo "installing hydra..."
 
 url=https://github.com/vanhauser-thc/thc-hydra
 install
+
+echo "installing ip tracer..."
+
+url="https://github.com/rajkumardusad/IP-Tracer.git"
+install
+cd IP-Tracer
+chmod +x install
+sh install
+cd
